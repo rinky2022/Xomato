@@ -1,0 +1,502 @@
+body{
+    margin:auto
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+}
+/* Header Css */
+#header{
+    height: 60px;
+    /* background-color: rgb(195 124 97); */
+    background-color: rgb(191 132 100);;
+}
+
+#icon{
+    margin-left: 1%;
+    margin-top:0%;
+    position: absolute;
+    color:#fff;
+}
+
+
+#login{
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#login>a{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height:40px;
+    width:40px;
+}
+
+
+/* Search Css */
+#search{
+    height: 400px;
+    background-image: url('image/food-wallpaper.png');opacity:0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30%;
+    /* background-size: 100% 400px; */
+    z-index: 1;
+}
+
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size:80px;
+    color:#df7839;
+    animation:animate 10s infinite;
+    z-index: 1;
+}
+
+#logo > span {
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+    z-index: 1;
+}
+
+@keyframes animate{
+    0% {margin-left: 45%;}
+    20% {margin-left: 40%;}
+    60% {margin-left: 45%;}
+    85% {margin-left: 40%;}
+    100% {margin-left: 45%;}
+
+}
+#heading{
+    margin-left: 18%;
+    margin-top: 13%;
+    position: absolute;
+    font-size:45px;
+    color:white;
+    font-weight: bold;
+    z-index: 1;
+    
+}
+
+.dropdown{
+    height:40px;
+    width:60%;
+    margin-left: 27%;
+    margin-top: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+select{
+    height:60px;
+    width:35%;
+    z-index: 1;
+    z-index: 1;
+}
+
+.restaurantSelect{
+    width:50%;
+    margin-top: 40%;
+}
+
+#coupon{
+    margin-top:1%;
+    margin-left: 18%;
+    height:60%;
+    width:60%;
+    background-color: black;
+    visibility: hidden;
+    z-index:100;    
+    animation: couponanimate 1s;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    
+
+   
+}
+#pic
+{
+    height:100%;
+    width:50%;
+    float: left;
+    
+}
+#desc
+{   margin-top: 5%;
+    
+    width:40%;
+    height:50%;
+    float:right;
+    color: white;
+}
+
+@keyframes couponanimate
+{
+    10%{margin-top: 15%;}
+    20%{margin-top: 10%;}
+    30%{margin-top: 5%;}
+}
+
+
+/* Quick Search */
+#QuickSearch{
+    width:80%;
+    margin-left:15%;
+    margin-top:3%;
+    display: inline-block
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.tileContainer{
+    height:260px;
+    width:30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 15px gray;
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+}
+.tileComponent1{
+    width:100%;
+    float: left;
+    height:150px;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height:150px;
+    margin-top: 3%;
+    border-radius: 10%;
+}
+
+.tileComponent2{
+    width:100%;    
+    height:100%;
+    margin-left: 5%;
+    margin-top: 25%;
+}
+
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+    margin-top: 40%;    
+}
+.componentHeading>a{
+    text-decoration: none;
+    color: #ac2e31 !important;
+    
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+body{
+    font-family: 'Georgia' !important;
+}
+
+.slider{
+    height:300px;
+    width:100%;
+}
+
+.Collectioncontainer
+{
+    width:80%;    
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+@media screen and (max-width:1120px){
+    
+    #heading{
+        margin-left: 11%;
+        margin-top: 18%;
+    }
+    .dropdown{
+        margin-left: 27%;
+        margin-top: 25%;
+    }
+    #search{
+        margin-top: -25%;
+    }
+}
+
+@media screen and (max-width:1000px){
+  
+   
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 24%;
+        
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 27%;
+    }
+    .restaurantSelect
+    {
+        margin-top: 55%;
+    }
+
+}
+    @media screen and (max-width:890px){
+       
+      
+        #logo{
+            margin-left: 40%;
+            font-size: 65px;
+            height:120px;
+            width:120px;
+            margin-top: 40px;
+        }
+        #heading{
+            margin-left: 15%;
+            margin-top: 24%;
+            font-size: 35px;
+        }
+        .dropdown{
+            margin-left: 25%;
+            margin-top: 34%;
+        }
+        #search{
+            margin-top: -30%;
+        }
+    }
+    
+    @media screen and (max-width:758px){
+       
+      
+        #logo{
+            margin-left: 40%;
+            font-size: 65px;
+            height:120px;
+            width:120px;
+            margin-top: 40px;
+        }
+        #heading{
+            margin-left: 10%;
+            margin-top: 24%;
+            font-size: 35px;
+        }
+        .dropdown{
+            margin-left: 25%;
+            margin-top: 34%;
+        }
+        #search{
+            margin-top: -30%;
+        }
+        .restaurantSelect{
+            margin-top: 70%;
+        }
+        .Collectioncontainer{
+            height: 2%;
+        }
+    }
+
+    
+    @media screen and (max-width:630px){
+       
+      
+        #logo{
+            margin-left: 40%;
+            font-size: 55px;
+            height:100px;
+            width:100px;
+            margin-top: 30px;
+        }
+        #heading{
+            margin-left: 15%;
+            margin-top: 24%;
+            font-size: 35px;
+        }
+        .dropdown{
+            margin-left: 25%;
+            margin-top: 34%;
+        }
+        #search{
+            margin-top: -30%;
+        }
+        .restaurantSelect{
+            margin-top: 70%;
+        }
+        .Collectioncontainer{
+            height: 3%;
+        }
+        #footer{
+            margin-top:100%;
+        }
+    }
+    
+    
+@media screen and (max-width:572px){
+  
+    .tileContainer{
+        width: 85%;
+    }
+    #logo{
+        margin-left: 40%;
+        font-size: 60px;
+        height:100px;
+        width:100px;
+        margin-top: 3%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 28%;
+        font-size: 30px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 80%;
+    } 
+    .Collectioncontainer{
+        height: 3%;
+    }
+    #footer{
+        margin-top:100%;
+    } 
+}
+
+
+@media screen and (max-width:460px){
+  
+    
+    #logo{
+        margin-left: 40%;
+        font-size: 60px;
+        height:100px;
+        width:100px;
+        margin-top: 3%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 28%;
+        font-size: 25px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 95%;
+    }  
+    .Collectioncontainer{
+        height: 3%;
+    }
+    #footer{
+        margin-top:100%;
+    }
+}
+
+
+@media screen and (max-width:370px){
+  
+    
+    #logo{
+        margin-left: 40%;
+        font-size: 50px;
+        height:90px;
+        width:90px;
+        margin-top: 3%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 30%;
+        font-size: 25px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 100%;
+    }  
+    .Collectioncontainer{
+        height: 3%;
+    }
+}
+@media screen and (max-width:330px){
+  
+    
+    #logo{
+        margin-left: 40%;
+        font-size: 35px;
+        height:70px;
+        width:70px;
+        margin-top: 6%;
+    }
+    #heading{
+        margin-left: 6%;
+        margin-top: 40%;
+        font-size: 20px;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 35%;
+    } 
+    .restaurantSelect{
+        margin-top: 120%;
+    }
+    .Collectioncontainer{
+        height: 3%;
+    }  
+    #footer{
+        margin-top:100%;
+    }
+}
+#footer{
+    height:35px;    
+    text-align: center;
+    margin-top: 20%;
+    width:100%; 
+    display:inline-block;   
+}

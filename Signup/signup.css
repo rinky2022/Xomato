@@ -1,0 +1,12 @@
+body{
+    margin: auto;
+    background-image: url('https://thumbs.dreamstime.com/b/italian-food-background-different-types-pasta-health-vegetarian-concept-top-view-copy-space-italian-food-114155664.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formcontainer{
+    margin-top:5%;
+    background-color: lightsalmon;
+    width: 50%;
+    margin-left: 26%;
+}

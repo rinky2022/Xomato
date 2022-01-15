@@ -1,0 +1,159 @@
+{
+    "city":
+    [
+        {
+            "id":1,
+            "name":"Kerala"
+        },
+        {
+            "id":2,
+            "name":"Bangalore"
+        },
+        {
+            "id":3,
+            "name":"Tamil Nadu"
+        },
+        {
+            "id":4,
+            "name":"Hyderabad"
+        },
+        {
+            "id":5,
+            "name":"Delhi"
+        }
+
+    ],
+
+    "hotel":
+    [
+        {
+            "hotelid":1,
+            "cityid":1,
+            "hotelname":"Brindavan",
+            "rating":4.5,
+            "cuisines":"Kerala traditional, South Indian,North Indian, Arabian",
+            "costoftwo":950
+        },
+        {
+            "hotelid":2,
+            "cityid":1,
+            "hotelname":"Empire Plaza",
+            "rating":4.4,
+            "cuisines":"Kerala traditional, South Indian,North Indian, Arabian",
+            "costoftwo":1500
+        },
+        {
+            "hotelid":3,
+            "cityid":1,
+            "hotelname":"Saravana Bhavan",
+            "rating":4.5,
+            "cuisines":"Kerala traditional, South Indian,North Indian, Arabian",
+            "costoftwo":750
+        },
+
+        {
+            "hotelid":4,
+            "cityid":2,
+            "hotelname":"Time Traveller",
+            "rating":4.5,
+            "cuisines":"American, International,North Indian, Arabian",
+            "costoftwo":1500
+        },
+        {
+            "hotelid":5,
+            "cityid":2,
+            "hotelname":"Lush",
+            "rating":4.5,
+            "cuisines":"American, International,North Indian, Arabian",
+            "costoftwo":1500
+        },
+
+        {
+            "hotelid":6,
+            "cityid":2,
+            "hotelname":"Uppercut",
+            "rating":4.5,
+            "cuisines":"American, International,North Indian, Arabian,Asian",
+            "costoftwo":1500
+        },
+        {
+            "hotelid":7,
+            "cityid":3,
+            "hotelname":"Flying Elephant",
+            "rating":4.5,
+            "cuisines":"American, International,North Indian, Arabian,Asian",
+            "costoftwo":1000
+        },
+        {
+            "hotelid":8,
+            "cityid":3,
+            "hotelname":"Sangeetha Veg Restaurant",
+            "rating":4.5,
+            "cuisines":"south Idian special ,North Indian, Arabian,",
+            "costoftwo":1000
+        },
+        {
+            "hotelid":9,
+            "cityid":3,
+            "hotelname":"Broekn Bridge Cafe Indian Restaurant",
+            "rating":4.5,
+            "cuisines":"American, International,North Indian, Arabian,Asian, European",
+            "costoftwo":1000
+        },
+        {
+            "hotelid":10,
+            "cityid":4,
+            "hotelname":"Cafe Bahar and Restaurant",
+            "rating":4.5,
+            "cuisines":"Hyderabad special, North Indian, Arabian",
+            "costoftwo":1000
+        },
+
+        {
+            "hotelid":11,
+            "cityid":4,
+            "hotelname":"Deccan Pavilian",
+            "rating":4.5,
+            "cuisines":"Hyderabad special, North Indian, Arabian,International",
+            "costoftwo":1000
+        },
+
+        {
+            "hotelid":12,
+            "cityid":4,
+            "hotelname":"Kebabs and Kurries",
+            "rating":4.5,
+            "cuisines":"Hyderabad special, North Indian, Arabian",
+            "costoftwo":850
+        },
+
+        {
+            "hotelid":13,
+            "cityid":5,
+            "hotelname":"Chicago Pizza",
+            "rating":4.5,
+            "cuisines":"Pasta,Pizza,Italian,Mexican",
+            "costoftwo":850
+        },
+        {
+            "hotelid":14,
+            "cityid":5,
+            "hotelname":"Waffles",
+            "rating":4.5,
+            "cuisines":"Cafe, Fast Food",
+            "costoftwo":500
+        },
+
+        {
+            "hotelid":15,
+            "cityid":5,
+            "hotelname":"Mosaic",
+            "rating":4.5,
+            "cuisines":"ITalian, Chinese",
+            "costoftwo":500
+        }
+
+
+
+    ]
+}
