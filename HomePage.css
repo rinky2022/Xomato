@@ -13,6 +13,10 @@ body{
     background-color: rgb(191 132 100);;
 }
 
+.form-check-input:checked{
+   color: black;
+}
+
 #icon{
     margin-left: 1%;
     margin-top:0%;
@@ -118,10 +122,10 @@ select{
 
 #coupon{
     margin-top:1%;
-    margin-left: 18%;
-    height:60%;
-    width:60%;
-    background-color: black;
+    margin-left: 25%;
+    height:50%;
+    width:50%;
+    background-color: rgb(217 50 50);
     visibility: hidden;
     z-index:100;    
     animation: couponanimate 1s;
@@ -158,8 +162,8 @@ select{
 
 /* Quick Search */
 #QuickSearch{
-    width:80%;
-    margin-left:15%;
+    width:80%; 
+    margin-left:9%; 
     margin-top:3%;
     display: inline-block
 }
@@ -182,6 +186,7 @@ select{
     font-weight: bold;
     margin-left: 1%;
 }
+
 
 .tileContainer{
     height:260px;

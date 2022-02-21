@@ -1,0 +1,40 @@
+[
+    {
+        "cuisine_id":1,
+        "cuisine_name":"North Indian"
+    },
+    {
+        "cuisine_id":2,
+        "cuisine_name":"South Indian"
+    },
+    {
+        "cuisine_id":3,
+        "cuisine_name":"Chinese"
+    },
+    {
+        "cuisine_id":4,
+        "cuisine_name":"Fast food"
+    },
+    {
+        "cuisine_id":5,
+        "cuisine_name":"Street Food"
+    },
+    {
+        "cuisine_id":6,
+        "cuisine_name":"Italian"
+    },
+    {
+        "cuisine_id":7,
+        "cuisine_name":"American"
+    },
+    {
+        "cuisine_id":8,
+        "cuisine_name":"Asian"
+    },
+    {
+        "cuisine_id":9,
+        "cuisine_name":"European"
+    }
+
+
+]

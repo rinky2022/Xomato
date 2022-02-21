@@ -1,0 +1,31 @@
+[
+    {
+        "stateid":1,
+        "state_name":"New Delhi"
+    },
+    {
+        "stateid":2,
+        "state_name":"Maharashtra"
+    },
+    {
+        "stateid":3,
+        "state_name":"Bangalore"
+    },
+    {
+        "stateid":4,
+        "state_name":"Chandigarh"
+    },
+    {
+        "stateid":5,
+        "state_name":"Kerala"
+    },
+    {
+        "stateid":6,
+        "state_name":"Tamil Nadu"
+    },
+    {
+        "stateid":7,
+        "state_name":"Andhra Pradesh"
+    }
+
+]
