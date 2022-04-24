@@ -667,42 +667,6 @@
         "recipe_type":"Vegetarian"
 
       },
-      {
-        "restaurant_id": 18,
-        "restaurant_name": "Cafe Mojo",
-        "location_id": 15,
-        "state_id": 5,
-        "address": "Shaheen Building Pattom Kowdiar Road Near Kuravankonam, Kowdiar, Thiruvananthapuram, Kerala 695003",
-        "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "average_rating": 4.2,
-        "rating_text": "Very Good",
-        "cost": 500,
-        "contact_number": 9453524651,
-        "mealTypes": [
-          {
-            "mealtype_id": 1,
-            "mealtype_name": "Breakfast"
-          },
-          {
-            "mealtype_id": 2,
-            "mealtype_name": "Lunch"
-          }
-        ],
-        "cuisines": [
-          {
-            "cuisine_id": 3,
-            "cuisine_name": "Chinese"
-          }
-        ],
-        "image_gallery": [
-          "https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg",
-          "https://b.zmtcdn.com/data/pictures/chains/3/143/1adb116d088669540c89150836d668f9.jpg",
-          "https://b.zmtcdn.com/data/pictures/chains/3/143/2781ab2c532b711ecd401571cdd87eb9.jpg",
-          "https://b.zmtcdn.com/data/pictures/chains/3/143/c751805b5927046d340926f870a95f5e.jpg"
-        ],
-        "recipe_type":"Vegetarian"
-
-      },
       
       {
         "restaurant_id": 19,
